@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    background-color: black;
+  }
+  
+
+h3{
+font-family: "Open Sans", sans-serif;
+font-weight: 700;
+color: white;
+padding: 10px;
+position: absolute;
+right: 20px;
+}
+
+.navar{
+   
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.picture{
+    background-image: url("https://media.istockphoto.com/id/1303021179/photo/different-tipes-of-pizza.jpg?s=2048x2048&w=is&k=20&c=K1L5arD9_J6tIri61SMJTy10ZNKH5kBWqJt29NlHtxg=");
+    background-size:cover;
+    width: 100%;
+    height: 250px;
+
+}
+a[href="page3.html"]{
+   border: rgb(169, 52, 6) 2px solid; 
+   padding: 5px;
+   color: white;
+   font-family: "Open Sans", sans-serif;
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   border-radius: 5px;
+   
+}
+a[href="page3.html"]:hover{
+    background-color:  rgb(169, 52, 6) ;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: larger;
+    padding: 5px;
+}
+.t1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+}
+table{
+   position: absolute;
+   top: 420px;
+   right: 390px;
+   display: inline-block;
+
+}
+.t2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    font-family: "Rubik", sans-serif;
+}
+ td{
+    background-color: white;
+    padding: 10px;
+ }
+ .t2 li{
+    background-color: white;
+  
+ }
+ .title{
+    color:  rgb(169, 52, 6) ;
+    font-weight: 600;
+    font-size: small;
+    position: absolute;
+   
+ }
+ .td1{
+    top: 380px;
+    right: 500px;
+ }
+.td2{
+    top: 380px;
+    left:400px;  
+}
+.addr{
+    position: absolute;
+    color: white;
+    top: 420px;
+    left:300px;
+    font-size: small;
+}
+.tel{
+    position: absolute;
+    color: white;
+    top: 460px;
+    left:370px;
+    font-size: small;  
+}
+
